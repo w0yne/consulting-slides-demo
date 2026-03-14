@@ -46,7 +46,8 @@ defineProps({
         >
           <span v-if="task.critical">▸ </span>{{ task.label }}
         </div>
-        <div class="task-timeline">
+        <div class="task-timeline" :style="{ gridTemplateColumns: `repeat(${months.length}, 1fr)` }">
+          <!-- Bars placed by grid column -->
           <template v-for="(bar, bIdx) in task.bars" :key="bIdx">
             <div
               v-if="bar.span > 0"
@@ -57,12 +58,6 @@ defineProps({
               }"
             ></div>
           </template>
-          <!-- Empty cells for borders -->
-          <div
-            v-for="idx in months.length"
-            :key="`border-${idx}`"
-            class="timeline-cell"
-          ></div>
         </div>
       </div>
     </div>
@@ -125,20 +120,21 @@ defineProps({
   flex: 1;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 1px;
-  position: relative;
-}
-
-.timeline-cell {
-  border-top: 1px solid #e5e7eb;
-  min-height: 20px;
+  gap: 2px;
+  min-height: 24px;
+  align-items: center;
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent calc(100% / 12 - 1px),
+    #e5e7eb calc(100% / 12 - 1px),
+    #e5e7eb calc(100% / 12)
+  );
 }
 
 .task-bar {
-  position: absolute;
-  height: 100%;
   border-radius: 3px;
-  z-index: 1;
+  height: 16px;
 }
 
 .legend {

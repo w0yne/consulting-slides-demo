@@ -1309,3 +1309,12 @@ layout: section
     <strong>Disclaimer:</strong> This document contains forward-looking statements and projections based on current assumptions. Actual results may differ materially. All financial figures are illustrative and for reference purposes only.
   </div>
 </div>
+
+<style>
+:root {
+  --slidev-slide-container-background: #f1f5f9;
+}
+#slide-container {
+  background: #f1f5f9 !important;
+}
+</style>

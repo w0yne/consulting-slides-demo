@@ -32,6 +32,18 @@ defineProps({
         <div class="grid-line dashed" style="bottom: 75%;"></div>
       </template>
 
+      <!-- Connecting line (SVG) -->
+      <svg class="line-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polyline
+          :points="points.map(p => `${p.x},${100 - p.y}`).join(' ')"
+          :stroke="color"
+          stroke-width="0.8"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+
       <!-- Data points -->
       <div
         v-for="(point, idx) in points"
@@ -95,6 +107,15 @@ defineProps({
 .grid-line.dashed {
   border-top-style: dashed;
   border-color: #f1f5f9;
+}
+
+.line-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
 
 .point {

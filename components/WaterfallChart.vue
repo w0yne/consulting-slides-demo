@@ -74,6 +74,7 @@ const props = defineProps({
   color: #888;
   margin-top: 0.3rem;
   line-height: 1.3;
+  white-space: nowrap;
 }
 
 .callout {

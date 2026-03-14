@@ -52,6 +52,7 @@ defineProps({
 <style scoped>
 .stacked-bar-chart {
   width: 100%;
+  margin-top: 1.5rem;
 }
 
 .chart-area {
