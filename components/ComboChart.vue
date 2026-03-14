@@ -52,7 +52,7 @@ defineProps({
             v-if="pt.label"
             :x="pt.cx + 5"
             :y="pt.cy - 5"
-            font-size="11"
+            style="font-size:11px"
             :fill="lineColor"
             font-weight="600"
           >{{ pt.label }}</text>

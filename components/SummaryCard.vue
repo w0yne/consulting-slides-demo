@@ -21,15 +21,15 @@ defineProps({
 .summary-card {
   display: flex;
   gap: 1rem;
-  padding: 1.2rem 1.5rem;
+  padding: 0.8rem 1.2rem;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
 }
 
 .number {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  min-width: 40px;
+  min-width: 36px;
 }
 
 .content {
@@ -42,9 +42,9 @@ defineProps({
 }
 
 .description {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   color: #888;
-  margin-top: 0.3rem;
-  line-height: 1.5;
+  margin-top: 0.2rem;
+  line-height: 1.4;
 }
 </style>

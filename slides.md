@@ -138,11 +138,11 @@ layout: section
 
 <StackedBarChart
   :bars="[
-    { label: '2020', total: '$80B', segments: [{ value: 40, color: '#16a34a' }, { value: 56, color: '#d97706' }, { value: 64, color: '#0284c7' }, { value: 80, color: '#7c3aed' }] },
-    { label: '2021', total: '$95B', segments: [{ value: 43, color: '#16a34a' }, { value: 57, color: '#d97706' }, { value: 76, color: '#0284c7' }, { value: 85, color: '#7c3aed' }] },
-    { label: '2022', total: '$110B', segments: [{ value: 44, color: '#16a34a' }, { value: 55, color: '#d97706' }, { value: 88, color: '#0284c7' }, { value: 88, color: '#7c3aed' }] },
-    { label: '2023', total: '$125B', segments: [{ value: 38, color: '#16a34a' }, { value: 50, color: '#d97706' }, { value: 100, color: '#0284c7' }, { value: 100, color: '#7c3aed' }] },
-    { label: '2024E', total: '$140B', segments: [{ value: 35, color: '#16a34a' }, { value: 49, color: '#d97706' }, { value: 112, color: '#0284c7' }, { value: 112, color: '#7c3aed' }] }
+    { label: '2020', total: '$80B', segments: [{ value: 30, color: '#16a34a' }, { value: 42, color: '#d97706' }, { value: 48, color: '#0284c7' }, { value: 60, color: '#7c3aed' }] },
+    { label: '2021', total: '$95B', segments: [{ value: 32, color: '#16a34a' }, { value: 43, color: '#d97706' }, { value: 57, color: '#0284c7' }, { value: 64, color: '#7c3aed' }] },
+    { label: '2022', total: '$110B', segments: [{ value: 33, color: '#16a34a' }, { value: 41, color: '#d97706' }, { value: 66, color: '#0284c7' }, { value: 66, color: '#7c3aed' }] },
+    { label: '2023', total: '$125B', segments: [{ value: 29, color: '#16a34a' }, { value: 38, color: '#d97706' }, { value: 75, color: '#0284c7' }, { value: 75, color: '#7c3aed' }] },
+    { label: '2024E', total: '$140B', segments: [{ value: 26, color: '#16a34a' }, { value: 37, color: '#d97706' }, { value: 84, color: '#0284c7' }, { value: 84, color: '#7c3aed' }] }
   ]"
   :legend="[
     { label: 'Enterprise', color: '#7c3aed' },
@@ -351,9 +351,9 @@ layout: section
       { flex: 45, color: '#bbf7d0', label: 'SMB 45%', labelColor: '#14532d' }
     ]},
     { width: '10%', label: 'RoW', segments: [
-      { flex: 60, color: '#7c3aed', label: 'E' },
-      { flex: 25, color: '#a78bfa', label: 'M' },
-      { flex: 15, color: '#ddd6fe', label: 'S', labelColor: '#4c1d95' }
+      { flex: 60, color: '#7c3aed', label: '' },
+      { flex: 25, color: '#a78bfa', label: '' },
+      { flex: 15, color: '#ddd6fe', label: '' }
     ]}
   ]"
 />
@@ -984,7 +984,7 @@ layout: section
       cons: ['18-24 month timeline', '$8-12M investment', 'Talent acquisition risk', 'Ongoing maintenance']
     },
     {
-      title: 'Buy ★ Recommended',
+      title: 'Buy',
       headerColor: '#16a34a',
       recommended: true,
       pros: ['Immediate capability', 'Proven technology', 'Vendor support', 'Faster time-to-market'],

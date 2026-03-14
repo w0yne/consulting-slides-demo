@@ -19,7 +19,7 @@ defineProps({
 .card-grid {
   display: grid;
   gap: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .variant-agenda {
@@ -28,7 +28,8 @@ defineProps({
 
 .variant-summary {
   grid-template-columns: 1fr !important;
-  gap: 0.8rem;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
 }
 
 .variant-appendix {

@@ -49,6 +49,7 @@ defineProps({
 .matrix-2x2 {
   position: relative;
   margin: 1rem auto 0;
+  margin-left: 60px;
 }
 
 .grid {
@@ -114,9 +115,10 @@ defineProps({
 .y-axis-label {
   position: absolute;
   top: 50%;
-  left: -25px;
-  transform: rotate(-90deg);
+  left: -50px;
+  transform: translateY(-50%) rotate(-90deg);
   font-size: 0.7rem;
   color: #999;
+  white-space: nowrap;
 }
 </style>

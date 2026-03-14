@@ -1,0 +1,6 @@
+[      39ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3847/1:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3847/consulting-slides-demo/assets/modules/vue-Cll6jcFB.js:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3847/consulting-slides-demo/assets/index-BXTqoBYU.js:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3847/consulting-slides-demo/assets/index-06c6KyGy.css:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3847/consulting-slides-demo/assets/modules/shiki-UqVAgQbi.css:0
+[      44ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3847/consulting-slides-demo/assets/modules/shiki-wGyyUIct.js:0
